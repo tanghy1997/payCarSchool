@@ -1,0 +1,655 @@
+*{
+    font-family: 'PingFang SC';
+}
+html,body{
+    line-height: normal !important;
+    margin:0;
+    padding: 0;
+    background-color: #161616;
+    overflow-x: hidden;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 18.5rem;
+    background-size: 100% 100%;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.p1{
+    position: absolute;
+    top: 8.8rem;
+    padding-left: 0.3rem;
+    /* left: calc(50% - 11.5rem); */
+    width:100%;
+    /* height:3rem; */
+    text-align: center;
+    font-size:2.8rem;
+    font-weight: 550;
+    letter-spacing: 5px;
+    font-family:"PingFangSC-Semibold" !important;
+    color:rgba(255,255,255,1);
+    /* line-height:1.25rem; */
+}
+
+.p2{
+    position: absolute;
+    bottom: 3rem;
+    width:100%;
+    text-align: center;
+    /* height:1.5rem; */
+    font-size:1.415rem;
+    letter-spacing: 1.6px;
+    opacity: 0.8;
+    font-family:"PingFangSC-Regular" !important;
+    color:rgba(255,255,255,1);
+    /* line-height:1.25rem; */
+}
+
+.body1{
+    height: 33rem;
+    position: relative;
+}
+.body1>div:nth-child(1){
+    margin-top: 2.8rem;
+    font-size: 1.4rem;
+    color: #A2894E;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.body1>div:nth-child(2){
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: rgba(242,242,242,1);
+    letter-spacing: 2px;
+    font-family: "PingFang SC";
+}
+.span1{
+    margin-bottom: 1.2rem;
+}
+.span2{
+    margin-bottom: 1.2rem;
+}
+
+.body1>div:nth-child(3){
+    margin-top: 3.8rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #A2894E;
+    letter-spacing: 2px;
+    font-family: "PingFangSC-Semibold";
+}
+
+.btn1{
+    width:18.5rem;
+    height:3.5rem;
+    line-height: 3.5rem;
+    background:rgba(162,137,78,1);
+    border-radius: 1.835rem ;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "PingFangSC-Regular";
+    color: #F2F2F2;
+    /* margin: 0 auto;
+    margin-top: 5.5rem; */
+    position: absolute;
+    top: 24rem;
+    left: calc(50% - 9.25rem);
+}
+
+.body2{
+    background-color: #202020;
+    /* width: 100%; */
+    height: 31.5rem;
+    padding-top: 1.5rem;
+}
+
+i{
+    font-style: normal;
+    color: #A2894E;
+}
+
+.body2>div:nth-child(1){
+    font-family: "STZhongsong";
+    color: #A2894E;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.body2>div:nth-child(2){
+    font-family: "Adobe Heiti Std";
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    margin-top: 2.8rem;
+}
+/* .body2>div:nth-child(3){
+    font-family: "Adobe Heiti Std";
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 1.4rem;
+}
+.body2>div:nth-child(4){
+    font-family: "Adobe Heiti Std";
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 1.4rem;
+    margin-bottom: 2.5rem;
+} */
+.road{
+    text-align: left;
+    font-family: "Adobe Heiti Std";
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 1.2rem;
+}
+
+.imgbox{
+    width: 100%;
+    margin-top: 4.8rem;
+}
+
+.imgbox img{
+    width: 100%;
+    height: 10.5rem;
+}
+
+#left{
+    width: 45%;
+    height: 10.5rem;
+    float: left;
+    margin-left: 2%;
+    position: relative;
+}
+
+#right{
+    width: 45%;
+    height: 10.5rem;
+    float: right;
+    margin-right: 2%;
+    position: relative;
+}
+
+.clear{
+    clear: both;
+}
+
+.checkPic{
+    background-color: #000000;
+    opacity: 0.2;
+    width: 6.5rem;
+    height: 2rem;
+    line-height: 2rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.body3{
+    width: 100%;
+    height: 44rem;
+    padding-top: 1.5rem;
+}
+.title_3{
+    /* margin-top: 1.5rem; */
+    margin-bottom: 1.5rem;
+    color: #A2894E;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    font-family: "STZhongsong";
+    text-align: center;
+}
+
+.price{
+    width: 28.5rem;
+    height: 9rem;
+    background-color: #202020;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+    font-family: "PingFangSC-Regular";
+    letter-spacing: 1px;
+    border-radius: 0.415rem;
+}
+.p-left{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.classP{
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+.time{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    color: #AFAFAF;
+}
+.classP1{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+.time1{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    color: #AFAFAF;
+}
+.att{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    color: #AFAFAF;
+    letter-spacing: 2px;
+}
+.p-right{
+    width: 40%;
+    height: 100%;
+    float: right;
+    color: #A2894E;
+    font-size: 2.5rem;
+    line-height: 9rem;
+    text-align: right;
+    font-weight: bold;
+}
+.p-right span{
+    margin-right: 2.5rem;
+}
+
+.body4{
+    width: 28.5rem;
+    height: 27rem;
+    background-color: #202020;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.415rem;
+}
+.body4>div:nth-child(1){
+    font-size:2rem;
+    font-family:"STZhongsong";
+    color:rgba(162,137,78,1);
+    text-align: center;
+    letter-spacing: 3px;
+}
+.body4>div:nth-child(2){
+    font-size:1.4rem;
+    font-family:"PingFang SC";
+    color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 3.5rem;
+}
+.body4>div:nth-child(3){
+    font-size:1.4rem;
+    font-family:"PingFang SC";
+    color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 3rem;
+}
+.body4>div:nth-child(4){
+    font-size:1.4rem;
+    font-family:"PingFang SC";
+    color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 3rem;
+}
+.body4 i{
+    font-style: normal;
+}
+
+.body5{
+    width: 28.5rem;
+    height: 27rem;
+    background-color: #202020;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.415rem;
+}
+
+.body5>div:nth-child(1){
+    font-size:2rem;
+    font-family:"STZhongsong";
+    color:rgba(162,137,78,1);
+    text-align: center;
+    letter-spacing: 3px;
+}
+.body5>div:nth-child(2){
+    font-size:1.4rem;
+    font-family:"PingFang SC";
+    color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 3.5rem;
+}
+.body5>div:nth-child(3){
+    font-size:1.4rem;
+    font-family:"PingFang SC";
+    color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 2.5rem;
+}
+.body5>div:nth-child(4){
+    font-size:1.4rem;
+    font-family:"PingFang SC";
+    color:#A2894E;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 3rem;
+}
+
+.body6{
+    width: 28.5rem;
+    height: 18rem;
+    background-color: #A2894E;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    border-radius: 0.415rem;
+}
+.body6>div:nth-child(1){
+    font-size:2rem;
+    font-family:"PingFangSC-Semibold";
+    color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 2px;
+    /* font-weight: bold; */
+}
+.body6>div:nth-child(2){
+    width: 3rem;
+    height: 0.25rem;
+    background-color: #161616;
+    margin: 2.5rem auto;
+}
+.body6>div:nth-child(3){
+    width: 25rem;
+    height: 5.5rem;
+    font-family: "Adobe Heiti Std R";
+    font-size: 1.4rem;
+    margin: 0.5rem auto;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    text-align: justify;
+    word-break: break-all;
+}
+.shareButton{
+    width: 17rem;
+    height: 3.5rem;
+    background-color: #AE3D3D;
+    border-radius: 2rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -1.75rem;
+    left: 5.75rem;
+}
+
+.body7{
+    width: 100%;
+    margin-top: 6rem;
+}
+.body7>div:nth-child(1){
+    width: 100%;
+    color: #A2894E;
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Adobe Heiti Std R";
+    margin-bottom: 2.5rem;
+}
+
+.person{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.pleft{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.pleft img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+}
+.pright{
+    padding-top: 0.5rem;
+    width: 80%;
+    float: right;
+}
+.pname{
+    font-size: 1.1rem;
+    font-family: "Adobe Heiti Std R";
+    color: #FFFFFF;
+    margin-bottom: 0.5rem;
+}
+.pcommon{
+    background-color: #A2894E;
+    margin-right: 1.5rem;
+    font-size: 1.25rem;
+    color: #161616;
+    padding: 1.5rem;
+    border-radius: 0rem 0.8rem 0.8rem 0.8rem;
+    /* font-weight: bold; */
+    font-family: "Adobe Heiti Std";
+    text-align: justify;
+    word-break: break-all;
+}
+
+.bottom{
+    width: 3.5rem;
+    height: 3.5rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 1.5rem;
+    /* top: 49.5rem; */
+    text-align: right;
+}
+
+#button{
+    width: 3.5rem;
+    height: 3.5rem;
+    /* margin-right: 1.5rem; */
+    /* position: absolute;
+    right: 1.5rem; */
+}
+
+/* .closepic{
+    width:4rem;
+    height:4rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+.weui-gallery__img{
+    position: absolute;
+    top: 10rem !important;
+    bottom:auto;
+}
+
+.redpacket{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#pickclass{
+    height: 4rem !important;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.weui-form-preview__hd:after{
+    display: none;
+}
+.weui-cell:before{
+    left: 0 !important;
+}
+
+.weui-cell_vcode{
+    height: 4rem !important;
+}
+
+#hb{
+    height: 4rem !important;
+}
+
+#classmessage{
+    /* height: 3rem !important; */
+    /* border-bottom: 1px solid #e5e5e5; */
+    /* text-align: center; */
+    /* padding-top: 1rem; */
+}
+#exetime{
+    text-align: left !important;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+
+#tegg{
+    text-align: center;
+    line-height: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+    display: none;
+    background-color: white;
+}
+
+.color-tang{
+    color: #373737;
+}
+.weui-dialog__btn{
+    color:#A2894E !important;
+}
+
+.weui-form-preview__btn_primary{
+    color:#A2894E !important;
+}
+.weui-icon_msg{
+    font-size: 2rem !important;
+    margin-right: 0.8rem;
+}
+.weui-msg{
+    padding-top: 20px !important;
+}
+
+.smfx{
+    border-top: 1px solid #e5e5e5;
+    padding: 10px 1.5rem;
+    font-size: 1.4rem;
+}
+
+.savebutton{
+    height: 4rem;
+    border: none;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #FFFFFF;
+    background-color: #A2894E;
+    font-size: 1.4rem;
+    
+}
+#search-img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#list-img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#packet-img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#exetime1{
+    text-align: left !important;
+    padding-left: 4rem;
+    position: relative;
+    top: 0.2rem;
+}
+
+.fPic img{
+    width:100% !important;
+    height:100% !important;
+}
+
+.tipMessage{
+    width:70%;
+    height: 10rem;
+    position: fixed;
+    top: calc(50% - 5rem);
+    left: 15%;
+    z-index: 1500;
+}
+
+.tipMessage div{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: #FFFFFF;
+    height: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+.tipMessage div span{
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+.tipMessage button{
+    width: 100%;
+    height: 4rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    /* border-top: 1px solid #000000; */
+    background-color: #A2894E;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}

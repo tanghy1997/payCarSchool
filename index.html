@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="keywords" content="口袋小安驾校合作" />
+    <meta name="Description" content="口袋小安" />
+    <meta itemprop="name" content="口袋小安"/>
+    <meta name="description" itemprop="description" content="口袋小安驾校合作" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>口袋小安官方合作驾校</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="./libs/js/jquery-2.1.4.min.js"></script>
+    
+    <style>
+        @media screen  and (max-width: 750px){
+            html{font-size:18px !important;}
+        }
+        @media screen and (min-width:640px) and (max-width:749px){
+            html{font-size:16px !important; }
+        }
+        @media screen and (min-width:414px) and (max-width:639px){
+            html{font-size:13px !important; }
+        }
+        @media screen and (min-width:336px) and (max-width:413px){
+            html{font-size:12px !important;}
+        }
+        @media screen and (max-width:335px){
+            html{font-size:10px !important; }
+        }
+    </style>
+</head>
+<body>
+    <section class="banner">
+        <img src="./libs/images/banner.png" alt="横幅">
+        <div class="p1">兄弟，学车儿吗?</div>
+        <div class="p2">可能是最适合安大的驾校了解一下</div>
+    </section>
+
+    <section class="body1">
+        <div>春季学车好时节，小安严选最佳驾校</div>
+        <div>
+            <div class="span1">精选八一驾校师资队伍</div>
+            <div class="span2">合肥信息技术学院场地</div>
+            <div class="span3">安徽大学学生单独编班</div>
+        </div>
+        <div>分享领取50元立减红包</div>
+        <div class="btn1">立即报名</div>
+    </section>
+
+    <section class="body2">
+        <div>最适合的地点</div>
+        <div>隔壁合肥信息技术学院校园内学车<br>
+            新手上路不害怕</div>
+        <div class="imgbox">
+            <div id="left">
+                <img src="libs/images/map1.png" alt="地图1" >
+                <div class="checkPic">点击查看大图</div>
+                <div class="road"><i>直达公交</i>606<i>路</i><br>15min+1<i>元</i></div>
+            </div>
+            <div id="right">
+                <img src="libs/images/map2.png" alt="地图2" >
+                <div class="checkPic">点击查看大图</div>
+                <div class="road"><i>骑行</i>1.2<i>千米</i><br>8<i>分钟+小黄车/小蓝车</i></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <!-- 点击出现图片大图 -->
+    <div class="weui-gallery" style="display: none" id="map1">
+        <!-- <img class="closepic" src="./libs/images/close.png" alt="关闭"> -->
+        <!-- <span class="weui-gallery__img" style="background-image: url('libs/images/map1.png');"></span> -->
+        <img class="weui-gallery__img closepic" src="libs/images/map1.png" alt="" style="width:100%;display:inline;">
+    </div>
+    <div class="weui-gallery" style="display: none" id="map2">
+        <!-- <img class="closepic" src="./libs/images/close.png" alt="关闭"> -->
+        <!-- <span class="weui-gallery__img" style="background-image: url('libs/images/map2.png');"></span> -->
+        <img class="weui-gallery__img closepic" src="libs/images/map2.png" alt="" style="width:100%;display:inline;">
+    </div>
+
+    <section class="body3">
+        <div class="title_3">最实惠的价格</div>
+        <div class="price">
+            <div class="p-left">
+                <!-- <div class="classP">C1普通班</div>
+                <div class="time">驾校统一安排训练时间(8:00~17:00)</div> -->
+                <div class="classP1">C1普通班</div>
+                <div class="time1">驾校统一安排训练时间</div>
+                <div class="att">(8:00~17:00)</div>
+            </div>
+            <div class="p-right"><span>￥2190</span></div>
+            <div class="clear"></div>
+        </div>
+        <div class="price">
+            <div class="p-left">
+                <div class="classP">C1VIP班</div>
+                <div class="time">自主预约练车&nbsp;(8:00~21:00)</div>
+            </div>
+            <div class="p-right"><span>￥2700</span></div>
+            <div class="clear"></div>
+        </div>
+        <div class="price">
+            <div class="p-left">
+                <div class="classP1">C1商务班</div>
+                <div class="time1">自主预约练车(8:00~21:00)</div>
+                <div class="att">一人一车每天至少练1h</div>
+            </div>
+            <div class="p-right"><span>￥3300</span></div>
+            <div class="clear"></div>
+        </div>
+        <div class="price">
+            <div class="p-left">
+                <div class="classP1">C2自动挡</div>
+                <div class="time1">自主预约练车(8:00~21:00)</div>
+                <div class="att">一人一车每天至少练1h</div>
+            </div>
+            <div class="p-right"><span>￥3500</span></div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <section class="body4">
+        <div>最优质的服务</div>
+        <div>八一驾校师资管理<br>安徽省<i>第一</i>服务质量</div>
+        <div>合肥信息技术学院校园训练场<br>暂住证<i>免费</i>办理</div>
+        <div>体验考试<i>车接车送</i><br>科二/科三在合作考场考试哦~</div>
+    </section>
+
+    <section class="body5">
+        <div>最靠谱的保障</div>
+        <div>口袋小安官方合作<br>安徽大学学生单独编班</div>
+        <div>服务不满意？<br>二次收费？<br>暗示买烟送礼？</div>
+        <div>找口袋小安,官方起诉追究赔偿！</div>
+    </section>
+
+    <section class="body6">
+        <div>分享给好友每人立减50</div>
+        <div></div>
+        <div>即日起至2018年5月1日，将此立减红包分享给好友，好友领取后，自己也即可获得50元学车立减红包</div>
+        <div class="shareButton">分享红包</div>
+    </section>
+
+    <section class="body7">
+        <div>驾校评价</div>
+        <div class="person">
+            <div class="pleft">
+                <img src="./libs/headerpic/1.jpg" alt="头像">
+            </div>
+            <div class="pright">
+                <div class="pname">﹏兔小琦°つ</div>
+                <div class="pcommon">
+                    教练真的超级耐心，都特别特别的为学员着想。虽然有时候因为学员犯错会吼你几句，但是平时都是语重心长的，最希望的不过是学员顺利拿到驾驶证。
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="person">
+            <div class="pleft">
+                <img src="./libs/headerpic/2.jpg" alt="头像">
+            </div>
+            <div class="pright">
+                <div class="pname">笑惜</div>
+                <div class="pcommon">
+                    之前就是被假的驾校招生给骗了，报名时说的天花乱坠，最后什么都没兑现。后来在现在的驾校报名学习，当时承诺的全部兑现，教练认真负责，也没有额外收取任何费用，现在坐等考完科目四拿驾照了。
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="person">
+            <div class="pleft">
+                <img src="./libs/headerpic/3.jpg" alt="头像">
+            </div>
+            <div class="pright">
+                <div class="pname">只是一阵风</div>
+                <div class="pcommon">
+                    合信院驾校确实可以，教练都很诚实，不像其他驾校老油条忽悠人，给我的感觉认真负责，合格率在全省排名次的。
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="person">
+            <div class="pleft">
+                <img src="./libs/headerpic/4.jpeg" alt="头像">
+            </div>
+            <div class="pright">
+                <div class="pname">怪咖叔叔</div>
+                <div class="pcommon">
+                    练车很随和，我天天练车，每天一小时，一个星期都练熟了，现在都不想练了懒得跑，教练还时不时的催我过去复习，希望这个月的考试顺利。
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="person">
+            <div class="pleft">
+                <img src="./libs/headerpic/5.jpeg" alt="头像">
+            </div>
+            <div class="pright">
+                <div class="pname">匿名的好友</div>
+                <div class="pcommon">
+                    驾校的场地的确不错，距离也还好。最主要还是整个过程不拖沓，一环扣一环的学习和考试，在承诺的时间拿到了驾照，心里美滋滋。现在驾照到手，只差买车。
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <!-- 悬浮按钮 -->
+    <section class="bottom">
+        <img src="./libs/images/button.png" alt="按钮" id="button">
+    </section>
+
+    <!-- 报名窗口 -->
+    <section class="redpacket signUp" style="display:none;">
+        <div class="box" style="width:100%;height:100%;"></div>
+        <div class="container">
+        <div class="weui-form-preview">
+        <div class="r-title" style="text-align:center;padding:1rem 1rem;font-weight:bold;letter-spacing:2px;font-size:1.5rem;">立即报名</div>
+        <!-- 选择部分 -->
+        <div class="weui-cell weui-cell_select weui-cell_select-after" id="pickclass">
+            <div class="weui-cell__hd">
+            <label for="select1" class="weui-label" style="font-size:1.4rem;">班级选择:</label>
+            </div>
+            <div class="weui-cell__bd">
+            <select class="weui-select" name="select1" id="select_id" style="font-size:1.2rem;">
+                <option value="0" id="schclass1" selected></option>
+                <option value="1" id="schclass2"></option>
+                <option value="2" id="schclass3"></option>
+                <option value="3" id="schclass4"></option>
+            </select>
+            </div>
+        </div>
+        <!-- 价格部分 -->
+
+        <!-- <div id="classmessage" style="color:black;font-size:1.4rem;"></div> -->
+        <!-- <div class="weui-form-preview__hd">
+            <label class="weui-form-preview__label" style="color:black;font-size:1.4rem;">小安协议价:</label>
+            <em class="weui-form-preview__value">¥&nbsp;<span id="price"></span></em>
+        </div> -->
+        <div class="weui-form-preview__bd">
+            <div class="weui-form-preview__item">
+            <label class="weui-form-preview__label" style="color:black;font-size:1.4rem;">已选班型:</label>
+            <span class="weui-form-preview__value" style="color:black;font-size: 1.2rem;" id="classmessage"></span>
+            </div>
+            <div class="weui-form-preview__item">
+            <label class="weui-form-preview__label" style="color:black;font-size:1.4rem;">小安协议价:</label>
+            <span class="weui-form-preview__value" style="color:black;font-size: 1.2rem;">¥&nbsp;<span id="price"></span></span>
+            </div>
+            <div class="weui-form-preview__item">
+            <label class="weui-form-preview__label" style="color:black;font-size:1.4rem;">练车时间:</label>
+            <span class="weui-form-preview__value" style="color:black;" id="exetime"></span>
+            </div>
+        </div>
+
+            
+            <div class="weui-cell weui-cell_vcode">
+                <div class="weui-cell__hd">
+                <label class="weui-label" style="font-size:1.4rem;">手机号:</label>
+                </div>
+                <div class="weui-cell__bd">
+                <input class="weui-input" type="tel" placeholder="请输入手机号" id="phone" style="font-size:1.2rem;">
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_vcode">
+                <div class="weui-cell__hd">
+                <label class="weui-label" style="font-size:1.4rem;">姓名:</label>
+                </div>
+                <div class="weui-cell__bd">
+                <input class="weui-input" type="tel" placeholder="请输入真实姓名" id="realName" style="font-size:1.2rem;">
+                </div>
+            </div>
+            <div class="weui-cell weui-cell_vcode">
+                <div class="weui-cell__hd">
+                <label class="weui-label" style="font-size:1.4rem;">身份证号:</label>
+                </div>
+                <div class="weui-cell__bd">
+                <input class="weui-input" type="tel" placeholder="请输入身份证号" id="idCard" style="font-size:1.2rem;">
+                </div>
+            </div>
+            <!-- 红包部分 -->
+            <div class="weui-cell weui-cell_select weui-cell_select-after" id="hb">
+                    <div class="weui-cell__hd">
+                    <label for="select2" class="weui-label" style="font-size:1.4rem;">推荐红包:</label>
+                    </div>
+                    <div class="weui-cell__bd">
+                    <select class="weui-select" name="select2" placeholder="使用优惠红包" id="select-redpack" style="font-size:1.2rem;">
+                        <option disabled selected>请选择红包</option>
+                    </select>
+                    </div>
+                </div>
+
+            <div class="weui-form-preview__ft">
+                <!-- <a class="weui-form-preview__btn weui-form-preview__btn_default" href="javascript:">辅助操作</a> -->
+                <button type="submit" class="weui-form-preview__btn weui-form-preview__btn_primary" id="signUpBtn">确定报名</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- 报名成功 -->
+    <section class="redpacket signUpSuccess" style="display:none;">
+            <div class="box" style="width:100%;height:100%;"></div>
+            <div class="container">
+            <div class="weui-form-preview">
+            <div class="weui-msg">
+                <div style="display:inline"><i class="weui-icon-success weui-icon_msg"></i></div>
+                <div style="display:inline">
+                    <h2 class="weui-msg__title" style="display:inline;position:relative;top:0.25rem;" id="sucMessage">报名成功</h2>
+                </div>
+            </div>
+            <!-- 价格部分 -->
+            <div class="weui-form-preview__hd">
+                <label class="weui-form-preview__label" style="color:black;font-size:1.4rem;">小安协议价:</label>
+                <em class="weui-form-preview__value" style="font-size:0.9em;">¥&nbsp;<span id="price1"></span>(不含考试费)</em>
+                </div>
+                <div class="weui-form-preview__bd">
+                    <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label" style="color:black;font-size:1.4rem;">练车时间:</label>
+                    <span class="weui-form-preview__value" style="color:black;" id="exetime1"></span>
+                    </div>
+                </div>
+    
+                <!-- 红包部分 -->
+                 <div class="weui-form-preview__bd">
+                    <div class="weui-form-preview__item">
+                    <label class="weui-form-preview__label" style="color:black;font-size:1.4rem;">推荐红包:</label>
+                    <span class="weui-form-preview__value" style="color:black;" id="redPacket">
+                        <span class="rbox1" style="display:none;">
+                        <span>￥&nbsp;-50</span><br>
+                        <span>(红包已使用，取消不退回)</span>
+                        </span>
+                        <span class="rbox2" style="display:none;">
+                            <span>暂无优惠红包</span>
+                        </span>
+                    </span>
+                    </div>
+                </div>
+                <!-- 总价格 -->
+                <div class="weui-form-preview__hd">
+                    <label class="weui-form-preview__label" style="color:black;font-size:1.4rem;">总价格:</label>
+                    <em class="weui-form-preview__value">¥&nbsp;<span id="allprice"></span></em>
+                </div>
+                <div class="weui-form-preview__ft">
+                    <button class="weui-form-preview__btn weui-form-preview__btn_default" style="display:none;" id="cancleorder">取消订单</button>
+                    <a type="submit" class="weui-form-preview__btn weui-form-preview__btn_primary" id="paybutton">前往支付</a>
+                    <a type="submit" class="weui-form-preview__btn weui-form-preview__btn_primary" id="paybuttonSuccess" style="display:none;">已完成支付</a>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <!-- 推荐朋友 -->
+    <section class="redpacket" style="display:none;" id="shareRedPacket">
+            <div class="box" style="width:100%;height:100%;"></div>
+            <div class="container">
+            <div class="weui-form-preview">
+                <div style="text-align:center;padding:10px 15px;">
+                    <!-- <img src="./libs/images/share.png" alt="分享" style="width:2.5rem;height:2.5rem;margin-right:0.8rem;"> -->
+                    <div style="font-size:1.5rem;">推荐朋友</div>
+                </div>
+                <div class="weui-cell">
+                    <div style="font-size:1.4rem;font-weight:bold;">分享红包</div>
+                </div>
+                <div style="padding:10px 1.5rem;">
+                    <div style="letter-spacing:1.5px;">感谢你愿意分享小安严选驾校也感谢你愿意和朋友分享好东西</div>
+                </div>
+                <div class="weui-cell" style="padding:10px 1.5rem;">
+                    <input class="weui-input" id="sharePhone" type="number" pattern="[0-9]*" placeholder="请输入你自己的号码">
+                </div>
+                <!-- <div class="weui-cell">
+                    <div>朋友扫码图片后，你和你的朋友都将各自获得一个50元立减红包，可在报名时直接使用</div>
+                    <div class="button">保存分享二维码</div>
+                </div> -->
+                 <div class="smfx">
+                    <div>
+                    <div>朋友扫码图片后，你和你的朋友都将各自获得一个50元立减红包，可在报名时直接使用</div>
+                    </div>
+                    <div style="text-align:center;margin-top:2rem;">
+                    <button class="savebutton">保存分享二维码</button>
+                    </div>
+                    <div id="qrcodeCanvas" style="display:none;"></div>
+                </div>
+            </div>
+            </div>
+            <div id="tegg">
+                <div class="tipMessage">
+                    <div><span>长按保存图片</span><br><span>分享立减红包给好友</span><br><span>你也能获得一个立减红包</span></div>
+                    <button class="noneButton">确&nbsp;&nbsp;&nbsp;定</button>
+                </div>
+                <img src="./libs/images/close.png" alt="关闭" style="width:2rem;height:2rem;position: absolute; right:2rem;top:2rem;" id="closeImg">
+                <!-- <div style="margin-top:3rem;margin-bottom:3rem;">长按保存二维码</div> -->
+                <div id="cesi" style="display:none;"></div>
+                <img src="./libs/images/bg.png" alt="" id="sharePIC" style="width:100%;display:none;">
+                <div class="showPic" style="width:100%;height:100%;display:none;"></div>
+                <div class="fPic" style="width:100%;height:100%;"></div>
+            </div>
+    </section>
+
+    <!-- 我的订单 -->
+    <section class="redpacket myorder" style="display:none;">
+            <div class="box" style="width:100%;height:100%;"></div>
+            <div class="container">
+            <div class="weui-form-preview">
+            <div class="weui-msg">
+                <div class="weui-msg__text-area">
+                    <div style="font-size:1.5rem;">我的订单</div>
+                </div>
+            </div>
+            <!-- 查询部分 -->
+                <div class="weui-cell">
+                    <input class="weui-input" id="ordphone" type="number" pattern="[0-9]*" placeholder="请输入你自己的号码">
+                </div>
+                <div class="weui-form-preview__ft">
+                    <!-- <a class="weui-form-preview__btn weui-form-preview__btn_default" href="javascript:">辅助操作</a> -->
+                    <button type="submit" class="weui-form-preview__btn weui-form-preview__btn_primary" id="searchorder">查询订单</button>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <!-- 分享记录查询 -->
+    <section class="redpacket" style="display:none;" id="sharerecord">
+            <div class="box" style="width:100%;height:100%;"></div>
+            <div class="container">
+            <div class="weui-form-preview">
+            <div class="weui-msg" style="padding-bottom: 20px !important;">
+                <!-- <img src="./libs/images/search.png" alt="搜索" id="search-img"> -->
+                <div style="display:inline-block;vertical-align: top;position:relative;top:0.2rem;font-size:1.4rem;">
+                     查询分享记录
+                </div>
+            </div>
+            <!-- 查询部分 -->
+                <div class="weui-cell">
+                    <input class="weui-input" type="number" id="shrphone" pattern="[0-9]*" placeholder="请输入你自己的号码" id="share-phone">
+                </div>
+                <div class="weui-form-preview__ft">
+                    <button type="submit" class="weui-form-preview__btn weui-form-preview__btn_primary" id="recordButton">查询</button>
+                </div>
+            </div>
+            </div>
+    </section>
+    <!-- 记录列表 -->
+    <section class="redpacket" style="display:none;" id="sharelist">
+            <div class="box" style="width:100%;height:100%;"></div>
+            <div class="container">
+            <div class="weui-form-preview" id="clickpart">
+                <div>
+                <!-- <img src="./libs/images/list.png" alt="搜索" id="list-img"> -->
+                <div style="font-size:1.5rem;padding:2rem 1rem;">
+                    我的扫码记录
+                </div>
+                <div class="weui-form-preview__item" id="record">
+                </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- 领取立减红包 -->
+    <section class="redpacket" style="display:none;" id="r-redpack">
+            <div class="box" style="width:100%;height:100%;"></div>
+            <div class="container">
+            <div class="weui-form-preview">
+            <div class="weui-msg" style="padding-bottom: 20px !important">
+                <img src="./libs/images/redpack.png" alt="红包" id="packet-img">
+                <div style="display:inline-block;vertical-align: top;position:relative;top:0.2rem;font-size:1.4rem;">
+                   领取立减红包
+                </div>
+            </div>
+            <!-- 查询部分 -->
+                <div class="weui-cell">
+                    <input class="weui-input" type="number" pattern="[0-9]*" placeholder="请输入你自己的号码" id="red-phone">
+                </div>
+                <div class="weui-form-preview__ft">
+                    <!-- <a class="weui-form-preview__btn weui-form-preview__btn_default" href="javascript:">辅助操作</a> -->
+                    <button id="redbutton" type="submit" class="weui-form-preview__btn weui-form-preview__btn_primary" href="javascript:">领取红包</button>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <script src="./libs/encrypt/components/jquery-3.2.1.min.js"></script>
+    <script src="./libs/encrypt/components/encrypt/cryptojs.aes.js"></script>
+    <script src="./libs/encrypt/components/encrypt/mode-ecb.js"></script>
+    <script src="./libs/encrypt/components/encrypt/pad-pkcs7.js"></script>
+    <script src="./libs/encrypt/components/encrypt/encrpy.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+    <script>
+        $(document).on("click","#button",function () {
+            $.actions({
+          title: "操作列表",
+          onClose: function() {
+            console.log("close");
+          },
+          actions: [
+            {
+              text: "报名试试",
+              className: "color-tang",
+              onClick: function() {
+                signup();
+              }
+            },
+            {
+              text: "我的订单",
+              className: "color-tang",
+              onClick: function() {
+                myOrder();
+              }
+            },
+            {
+              text: "推荐朋友",
+              className: 'color-tang',
+              onClick: function() {
+                sharePacket();
+              }
+            },
+            {
+              text: "分享记录",
+              className: 'color-tang',
+              onClick: function() {
+                shareRecord();
+              }
+            },
+            {
+              text: "电话咨询",
+              className: 'color-tang',
+              onClick: function() {
+                $.alert({
+                    title:'温主任',
+                    text:'18715053506',
+                });
+              }
+            }
+          ]
+        });
+        })
+    </script>
+    <script src="./libs/js/uft.js"></script>
+    <script src="./libs/js/jquery.qrcode.js"></script>
+    <script src="./js/index.min.js"></script>
+
+    <!-- 图片控制 -->
+    <script>
+        $('#left').click(function () {
+            $("#map1").css({
+                display: 'block',
+            })
+        })
+        $('#right').click(function () {
+            $("#map2").css({
+                display: 'block',
+            })
+        })
+        $('.closepic').click(function () {
+            $('.weui-gallery').css({
+                display: 'none',
+            })
+        })
+    </script>
+</body>
+</html>

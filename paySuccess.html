@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no, email=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付成功页面</title>
+    <link rel="stylesheet" href="./css/paySuccess.css">
+    <script src="./libs/js/jquery-2.1.4.min.js"></script>
+    
+    <style>
+        @media screen  and (max-width: 750px){
+            html{font-size:18px !important;}
+        }
+        @media screen and (min-width:640px) and (max-width:749px){
+            html{font-size:16px !important; }
+        }
+        @media screen and (min-width:414px) and (max-width:639px){
+            html{font-size:13px !important; }
+        }
+        @media screen and (min-width:336px) and (max-width:413px){
+            html{font-size:12px !important;}
+        }
+        @media screen and (max-width:335px){
+            html{font-size:10px !important; }
+        }
+    </style>
+</head>
+<body>
+    <!-- 支付成功 -->
+    <section>
+        <!-- 显示部分 -->
+        <div class="part1">
+            <img src="./libs/images/right.png" alt="支付成功">
+            <div class="p-success">支付成功</div>
+            <div class="classType"></div>
+        </div>
+        <div  class="part2">
+            <div class="top">
+                <div>小安协议价:&nbsp;&nbsp;<span>￥<span class="price"></span>（不含考试费）</span></div>
+                <div>练车时间:&nbsp;&nbsp;<span class="teachTime"></span></div>
+                <div>推荐红包:&nbsp;&nbsp;<span class="packet"></span></div>
+            </div>
+            <div class="line"></div>
+            <div class="bottom">
+                <div class="f-price">总价格:&nbsp;&nbsp;<span>￥<span class="payPrice"></span></span></div>
+                <button class="connect">联系驾校</button>
+            </div>
+        </div>
+        <!-- 弹出框 -->
+        <div class="part3" style="display:none;">
+            <div class="content">
+                <img src="./libs/images/close.png" alt="关闭" id="closeBtn">
+                <div>联系人：温主任</div>
+                <div>联系号码：18715053506</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/paySuccess.min.js"></script>
+</body>
+</html>
